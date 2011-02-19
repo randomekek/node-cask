@@ -15,7 +15,8 @@ In the test.js file provided I can get around 250k random reads/sec and 60k writ
 On my computer with about 2gb ram, when the data size is over 1.5gb the read performance falls off a cliff.
 
 Although blocking, performance is acceptable if:
-* More reads than writes and
+
+* More reads than writes, and
 * Data set fits in memory
 
 ## Complete API overview
